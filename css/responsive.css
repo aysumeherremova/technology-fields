@@ -1,0 +1,102 @@
+@media (max-width: 1200px) {
+  html, body {
+    overflow-x: hidden;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .hero h1 {
+    font-size: 3rem;
+  }
+  .hero .btn {
+    font-size: 1rem;
+    padding: 0.6rem 1.5rem;
+  }
+  .gallery {
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  }
+}
+
+@media (max-width: 992px) {
+  .navbar-nav .nav-link {
+    margin-right: 0.5rem;
+  }
+  .hero {
+    height: 80vh;
+  }
+  .main-title {
+    font-size: 24px;
+  }
+  .sub-title {
+    font-size: 20px;
+  }
+  .gallery-item {
+    padding: 15px;
+  }
+  button {
+    font-size: 12px;
+    padding: 8px 16px;
+  }
+  .cia {
+    max-width: 100%;
+    height: auto;
+    display: block; 
+  }
+  
+}
+
+@media (max-width: 768px) {
+  .navbar {
+    padding: 0.5rem;
+  }
+  .hero .container {
+    padding-top: 100px;
+  }
+  .hero h1 {
+    font-size: 2.5rem;
+  }
+  .hero .btn {
+    font-size: 0.9rem;
+    padding: 0.5rem 1.2rem;
+  }
+  .gallery {
+    grid-template-columns: 1fr;
+  }
+  .container-ft {
+    flex-direction: column;
+    align-items: center;
+  }
+  .location,
+  .contact {
+    margin: 10px 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .hero h1 {
+    font-size: 2rem;
+  }
+  .hero .btn {
+    font-size: 0.8rem;
+    padding: 0.4rem 1rem;
+  }
+  .navbar-brand {
+    font-size: 1.5rem;
+  }
+  .main-title {
+    font-size: 20px;
+  }
+  .sub-title {
+    font-size: 18px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+@media (max-width: 320px) {
+  .container {
+    width: 100%;
+    margin: 10 auto;
+    overflow-x: hidden;
+  }
+}
